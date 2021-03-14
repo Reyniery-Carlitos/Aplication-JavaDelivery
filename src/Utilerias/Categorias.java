@@ -23,6 +23,7 @@ public class Categorias {
     // Mostrar Catalogo
     public void Mostrar_Catalogo(String cat){
         int i = 0;
+        System.out.println("*** BUSCANDO CATEGORIAS ***");
         for (Comercios c: this.categorias) {
             if (cat == c.categoria){
                 System.out.println("Nombre del comercio: " + c.nComercio + " Categoria: " + c.categoria);
